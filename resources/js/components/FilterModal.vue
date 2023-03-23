@@ -5,7 +5,7 @@
         <heading
           :level="2"
           class="border-b border-40 py-8 px-8 text-90 font-normal text-xl"
-          >{{ __('Filter') }} "{{ title }}"</heading
+          >{{ __('تصفية') }} "{{ title }}"</heading
         >
 
         <div class="py-6 action">
@@ -17,7 +17,7 @@
               <label
                 for="nova-time-range"
                 class="inline-block text-80 pt-2 leading-tight"
-                >{{ __('Time Range') }}</label
+                >{{ __('نطاق زمني') }}</label
               >
             </div>
             <div class="py-6 px-8 w-1/2">
@@ -106,7 +106,7 @@
             type="submit"
             class="btn btn-default btn-primary"
           >
-            <span>{{ __('Save') }}</span>
+            <span>{{ __('حفظ') }}</span>
           </button>
         </div>
       </div>
